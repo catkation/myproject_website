@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+<meta name="description" content="Студия дизайна Butterfly" />
+<meta name="keywords" content="дизайн, веб-разработка, студия дизайна, заказать дизайн" />
+<meta name="author" content="Butterfly" />
+<link rel="shortcut icon" href="img/butterfly.ico">
+<title>Butterfly | Студия дизайна</title>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/style.css" />
+ <style>
+    .wow:first-child {
+      visibility: hidden;
+    }
+  </style>
+  <!--[if IE]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="js/classie.js"></script>
+<script>
+    function init() {
+        window.addEventListener('scroll', function(e){
+            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                shrinkOn = 500,
+                header = document.querySelector("header");
+            if (distanceY > shrinkOn) {
+                classie.add(header,"smaller");
+            } else {
+                if (classie.has(header,"smaller")) {
+                    classie.remove(header,"smaller");
+                }
+            }
+        });
+    }
+    window.onload = init();
+</script>
+</head>
+<body>
+<div id="homepage">
+<div id="start">
+   <header>
+    <div class="container clearfix">
+        <h1 id="logo">butterfly&trade;</h1>
+        <nav>
+            <a href="">Услуги и цены</a>
+            <a href="">Наши работы</a>
+            <a href="">Контакты</a>
+        </nav>
+    </div>
+</header><!-- /header -->
+    <div id="content">
+          <div class="contain">
+           <div id="sect">
+            <h1 id="text1">ЛОГОТИП + LANDING PAGE</h1>
+            <h1 id="text2"> всего за <span id = "line">2000 </span><span id="red">1500</span> грн</h1>
+            <h3>до 15 апреля</h3>
+            <div class="order"><a href="#">ЗАКАЗАТЬ</a></div>
+           </div>
+           </div><!--/.contain-->
+    </div><!--/#content-->
+    </div><!-- /#start -->   
+</div><!-- /#homepage -->  
+
+<div class="about">
+<h1>Студия дизайна <span id="butterfly">butterfly</span></h1>
+         <div class="aboutblock">
+				<div class="grid">
+					<figure class="effect-ming">
+						<img src="img/f.jpg" alt="img09"/>
+						<figcaption>
+							<h2>О нас</h2>
+							<p>Мы предоставляем широкий спектр услуг по дизайну</p>
+							<a href="#"></a>
+						</figcaption>			
+					</figure>
+					<figure class="effect-ming">
+						<img src="img/s.jpg" alt="img08"/>
+						<figcaption>
+							<h2>Что мы делаем</h2>
+                    <p>Мы занимаемся разработкой качественного дизайна
+							<a href="#"></a>
+						</figcaption>			
+					</figure><figure class="effect-ming">
+						<img src="img/t.jpg" alt="img08"/>
+						<figcaption>
+							<h2>Наши цели</h2>
+							<p>Наша цель - лучший дизайн для наших клиентов</p>
+							<a href="#"></a>
+						</figcaption>			
+					</figure>
+				</div>
+     </div>   
+</div><!-- /.about -->
+<script src="js/wow.js"></script>
+<script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset: 100,
+        callback: function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+  </script>
+<div id="info_blocks">
+    <div class="wrap_adv">
+         <div class="adv pic pic1">
+            <div class="img_wrap">
+                <img src="img/clock.png" alt=""  width="100px"  height="98px">
+           </div>
+         </div>
+        <div class="adv  pic pic2">
+           <div class="img_wrap">
+                <img src="img/money.png" alt=""  width="100px"  height="98px">
+           </div>
+        </div>
+        <div class="adv pic pic3">
+           <div class="img_wrap">
+                <img src="img/gift.png" alt=""  width="100px"  height="98px">
+           </div>
+        </div>
+         <div class="adv txt txt1">
+           <h2>Время</h2>
+           <p>Выполнение заказа в кротчайшие сроки </p>
+        </div>
+        <div class="adv txt txt2">    
+         <h2>Цены</h2>        
+        <p>Качественный дизайн по оптимальным ценам</p>
+         </div>
+        
+        <div class="adv txt txt3">    
+         <h2>Скидки</h2>        
+     <p>Выгодные предложения для наших клиентов</p>
+        </div>
+     </div>
+<div class="more"> <a href="#">Подробнее</a> </div>   
+</div>
+<div class="categories">
+        <div id="container_category">
+    <div id="main_category">
+      <a href="#"><section class="wow fadeInDown add">
+      <h1 class="wow slideRight biggy">Рекламная продукция</h1>
+      </section></a>
+       <a href="#"><section class="wow fadeInDown inter" data-wow-iteration="4s" data-wow-duration="1500ms">
+       <h1 class="wow slideLeft">Дизайн интерьера</h1>
+       </section></a>
+         <a href="#"><section class="wow fadeInDown logo" data-wow-iteration="4s" data-wow-duration="1500ms">
+        <h1 class="wow slideRight">Создание логотипов</h1>
+        </section></a>
+     <a href="#"><section class="wow fadeInDown site" data-wow-iteration="4s" data-wow-duration="1500ms">
+    <h1 class="wow slideLeft">Разработка вебсайтов</h1>
+    </section></a>
+    </div>
+  </div><!--#container-->
+    <div class="price"> <a href="#">Заказать</a> </div>
+</div>
+<footer>
+ <h1 id="butterfly" class="footer_logo ">butterfly</h1>
+ <div class="icons">
+     <div class="icon"><a href="#"><img src="img/facebook.png" alt="facebook_icon" width="40px"></a></div>
+     <div class="icon"><a href="#"><img src="img/blogger.png" alt="blogger_icon" width="40px"></a></div>
+    <div class="icon"><a href="#"><img src="img/googleplus.png" alt="googleplus_icon" width="40px"></a></div>
+ </div>
+<div class="footer_left">
+  <p>+38 (096) 840 73 26</p>
+  <p>butterflystudio@gmail.com</p>      
+</div> 
+<div id="bottom">
+    <p id="copy">All rights reserved 2016 &copy;</p>
+</div>
+</footer>
+</body>
+</html>
